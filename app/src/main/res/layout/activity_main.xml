@@ -10,22 +10,23 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:background="#FFEB3B"
+        android:background="#BFAAE4"
         android:gravity="center">
 
         <EditText
             android:layout_width="208dp"
-            android:layout_height="35dp"
+            android:layout_height="48dp"
             android:layout_marginLeft="80dp"
             android:layout_marginTop="5dp"
             android:layout_marginRight="80dp"
             android:layout_marginBottom="5dp"
-            android:background="@drawable/bg_edit"
-            android:hint="@string/t_m_truy_n"
-            android:textAlignment="textStart"
-            android:textSize="20sp"
             android:autofillHints=""
-            android:inputType="text"/>
+            android:background="@drawable/bg_edit"
+            android:hint="  Tìm truyện..."
+            android:inputType="text"
+            android:textAlignment="textStart"
+            android:textColor="#000000"
+            android:textSize="20sp" />
     </RelativeLayout>
 
 </LinearLayout>
