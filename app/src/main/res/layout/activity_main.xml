@@ -8,18 +8,33 @@
     android:background="#1E1C1C"
     tools:context=".MainActivity"
      android:orientation="vertical">
+    <include
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
 
      <ScrollView
+         android:id="@+id/Scroll_View"
          android:layout_width="match_parent"
          android:layout_height="match_parent" >
 
          <LinearLayout
+             android:id="@+id/linear_layout"
              android:layout_width="match_parent"
              android:layout_height="wrap_content"
              android:background="#BFAAE4"
              android:gravity="center">
 
+             <ImageView
+                 android:id="@+id/imageView"
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                 android:layout_weight="1"
+                 app:srcCompat="@drawable/logo"
+                 />
+
              <EditText
+                 android:id="@+id/Search"
                  android:layout_width="208dp"
                  android:layout_height="48dp"
                  android:layout_marginLeft="80dp"
