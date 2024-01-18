@@ -31,9 +31,6 @@ public class MainActivity extends AppCompatActivity {
         frame = findViewById(R.id.frame_Layout);
         navBar = findViewById(R.id.bottomNavigationView);
         addEvent();
-
-
-
     }
 
     public void addEvent()
@@ -52,8 +49,9 @@ public class MainActivity extends AppCompatActivity {
                 }
                 if(id==R.id.bookmarks)
                 {
-                    loadFragment(fm,new BookmarksFragment());
-                    return true;
+                    /*loadFragment(fm,new BookmarksFragment());*/
+                    Toast.makeText(MainActivity.this, "You need an account to use this feature ", Toast.LENGTH_SHORT).show();
+                    return false;
                 }
                 if(id==R.id.settings)
                 {

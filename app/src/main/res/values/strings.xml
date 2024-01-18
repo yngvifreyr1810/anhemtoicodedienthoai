@@ -1,6 +1,16 @@
 <resources>
     <string name="app_name">anhemtoicodedienthoai</string>
-    <string name="t_m_truy_n">Tìm truyện...</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="ForgotPassword"><u>Forgot password?</u></string>
+    <string name="Hello">Hello</string>
+    <string name="WelcomeBack">Welcome back</string>
+    <string name="UserName">User Name</string>
+    <string name="Password">Password</string>
+    <string name="Login">Login</string>
+    <string name="Register">Register</string>
+    <string name="Home">Home</string>
+    <string name="LoginRegister">Login/Register</string>
+    <string name="HelloGuest">Hello, Guest</string>
+    <string name="Searchmanga">Search manga</string>
 </resources>
